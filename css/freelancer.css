@@ -460,7 +460,3 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
-
-.col-lg-8 .col-lg-offset-2 > .form-group .col-xs-12 > .btn .btn-success .btn-lg {
-    background-color: #5d8aa8;
-}
