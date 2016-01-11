@@ -246,6 +246,7 @@ th {
   }
   .navbar {
     display: none;
+    background-color: transparent;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
