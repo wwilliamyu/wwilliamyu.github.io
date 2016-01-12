@@ -189,13 +189,17 @@ section.success {
     background-size: 100%;
 }
 
+section.success a:hover {
+    color: red;
+}
+
 section.success a,
 section.success a:hover,
 section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #2c3e50;
+    color: #fff;
 }
 
 @media(max-width:767px) {
