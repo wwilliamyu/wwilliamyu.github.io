@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #5d8aa8;
+    color: #fff;
 }
 
 h1,
@@ -63,7 +63,8 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #5d8aa8;
+    background-color: black;
+
 }
 
 hr.star-primary {
@@ -85,6 +86,7 @@ header {
     background-image: url('../img/background.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: #0f0713;
 }
 
 header .container {
@@ -184,7 +186,8 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #5d8aa8;
+    background-image: url('../img/night-sky-hd-wallpaper.jpg');
+    background: #0f0713;
 }
 
 section.success a,
@@ -277,7 +280,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #5d8aa8;
+    color: #0f0713;
     background: #fff;
 }
 
@@ -330,7 +333,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #5d8aa8;
+    color: #0f0713;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -459,4 +462,16 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.success {
+    background-color: black;
+}
+.col-lg-4 {
+    text-align: center;
+}
+
+.btn {
+    background-color: #5d8aa8;
+    border-color: #5d8aa8;
 }
